@@ -1,17 +1,17 @@
 class Lcovmerge < Formula
   desc "Streaming LCOV merger; macOS binaries use the system libSystem library"
   homepage "https://github.com/megasoft1978/lcovmerge"
-  version "1.0.2"
+  version "1.2.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/megasoft1978/lcovmerge/releases/download/v1.0.2/lcovmerge-1.0.2-macos-arm64.tar.gz"
-    sha256 "a61f47349a3856be0106c9bde37dcbe9e488ecb9aae729abb0ac77c2002ed02e"
+    url "https://github.com/megasoft1978/lcovmerge/releases/download/v1.2.0/lcovmerge-1.2.0-macos-arm64.tar.gz"
+    sha256 "54eb1cb67f7761b82e52423404a01a092cd31fdc4f28a922e90ebabe66d3efe4"
   end
 
   on_intel do
-    url "https://github.com/megasoft1978/lcovmerge/releases/download/v1.0.2/lcovmerge-1.0.2-macos-x86_64.tar.gz"
-    sha256 "083065541c20867921b57a3c76cf31e90e52752bcce706771d1f7b7ec6a7d935"
+    url "https://github.com/megasoft1978/lcovmerge/releases/download/v1.2.0/lcovmerge-1.2.0-macos-x86_64.tar.gz"
+    sha256 "e6f9537364576114f8fe0948fbbec3f9d3ddbfc0da753d186fde861e83cac818"
   end
 
   def install
